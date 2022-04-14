@@ -32,7 +32,7 @@ export default function (server) {
 					);
 				} else {
 					console.info(
-						`INFO  - Apollo Server corriendo en el puerto ${process.env.PORT} del host ${process.env.HOST}.`
+						`INFO  - Apollo Server corriendo en el puerto ${config.port} del host ${process.env.HOST}.`
 					);
 				}
 			}
