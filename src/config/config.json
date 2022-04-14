@@ -5,7 +5,7 @@
 	"pass_mail" : "rcxdmqkpheczlkdi",
 	"email_sender": "pablo.acevedo.g@gmail.com",
 
-    "client": "200.120.111.212",
+    "client": "https://client-tts.herokuapp.com",
     "saltRounds": 10,
     "graphql": {
         "endpoint": "/",
