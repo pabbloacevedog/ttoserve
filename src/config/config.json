@@ -5,7 +5,7 @@
 	"pass_mail" : "rcxdmqkpheczlkdi",
 	"email_sender": "pablo.acevedo.g@gmail.com",
 
-    "client": "https://talentto-zeta.vercel.app",
+    "client": "200.120.111.212",
     "saltRounds": 10,
     "graphql": {
         "endpoint": "/",
