@@ -1,0 +1,18 @@
+{
+    "port": 5000,
+    "secret": "desktop deflate judgingly engaging",
+    "passphrase": "connected private spectator blunt",
+	"pass_mail" : "rcxdmqkpheczlkdi",
+	"email_sender": "pablo.acevedo.g@gmail.com",
+
+    "client": "https://talentto-zeta.vercel.app",
+    "saltRounds": 10,
+    "graphql": {
+        "endpoint": "/",
+        "ide": true,
+        "pretty": true
+    },
+    "upload": {
+        "endpoint": "/upload"
+    }
+}

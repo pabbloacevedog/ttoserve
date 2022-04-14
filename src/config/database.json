@@ -1,0 +1,17 @@
+{
+  "development": {
+    "username": "root",
+    "password": "pacevedo",
+    "database": "tts_bd",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "ebjk23n9elibg3m9",
+    "password": "qkk93kc6jc17odi3",
+    "database": "yer7v3aaz37yccwf",
+    "host": "d6rii63wp64rsfb5.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+    "dialect": "mysql",
+	"port": 3306
+  }
+}
