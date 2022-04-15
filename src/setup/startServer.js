@@ -10,6 +10,7 @@ const MESSAGE_CREATED = 'MESSAGE_CREATED';
 // import { execute, subscribe } from 'graphql';
 // import { SubscriptionServer } from 'subscriptions-transport-ws';
 // Sincronizando tablas de la base de datos e iniciar servidor
+const PORT = process.env.PORT || 5000;
 export default function (server) {
 	console.info('SETUP - Sincronizando tablas de la base de datos...')
 
@@ -20,8 +21,9 @@ export default function (server) {
 		console.info('SETUP - Iniciando servidor...')
         // Inciar Servidor web
         server.listen(
-			process.env.PORT || 5000,
-			process.env.HOST || "127.0.0.1",
+			{
+				port: PORT,
+			},
 			{
 				bodyParserOptions: { limit: "10mb", type: "application/json" },
 			},
