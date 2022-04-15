@@ -1,5 +1,6 @@
 // Imports
 const { ApolloServer } = require("apollo-server-express");
+import expressPlayground from "graphql-playground-middleware-express";
 // App Imports
 import schema from "../schema";
 
@@ -8,8 +9,9 @@ export default function (server) {
 	console.info("SETUP - GraphQL...");
 	const graphQLServer = new ApolloServer({
 		schema,
-		introspection: true
+		introspection: true,
 	});
+
 	graphQLServer.applyMiddleware({
 		app: server,
 		cors: {
@@ -31,4 +33,10 @@ export default function (server) {
 			},
 		},
 	});
+	server.get(
+		"/",
+		expressPlayground({
+			endpoint: "/graphql",
+		})
+	);
 }
