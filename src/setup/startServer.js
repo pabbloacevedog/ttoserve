@@ -20,7 +20,7 @@ export default function (server) {
 		console.info('SETUP - Iniciando servidor...')
         // Inciar Servidor web
         server.listen(
-			5000,
+			process.env.PORT || 5000,
 			process.env.HOST || "127.0.0.1",
 			{
 				bodyParserOptions: { limit: "10mb", type: "application/json" },
