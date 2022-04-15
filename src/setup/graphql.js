@@ -1,8 +1,6 @@
 // Imports
-import graphqlHTTP from "express-graphql";
 const { ApolloServer } = require("apollo-server-express");
 // App Imports
-import config from "../config/config.json";
 import schema from "../schema";
 
 // Setup GraphQL
@@ -10,6 +8,7 @@ export default function (server) {
 	console.info("SETUP - GraphQL...");
 	const graphQLServer = new ApolloServer({
 		schema,
+		introspection: true
 	});
 	graphQLServer.applyMiddleware({
 		app: server,
