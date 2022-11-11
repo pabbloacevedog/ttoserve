@@ -3,7 +3,7 @@
     "username": "tts_user",
     "password": "tts_password",
     "database": "tts_db",
-    "host": "0.0.0.0",
+    "host": "vps-2900885-x.dattaweb.com",
     "dialect": "mysql",
 	"port": 13306
   },
@@ -11,7 +11,7 @@
     "username": "tts_user",
     "password": "tts_password",
     "database": "tts_db",
-    "host": "0.0.0.0",
+    "host": "vps-2900885-x.dattaweb.com",
     "dialect": "mysql",
 	"port": 13306
   }
