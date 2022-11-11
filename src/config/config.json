@@ -1,11 +1,11 @@
 {
-    "port": 5000,
+    "port": 8080,
     "secret": "desktop deflate judgingly engaging",
     "passphrase": "connected private spectator blunt",
 	"pass_mail" : "rcxdmqkpheczlkdi",
 	"email_sender": "pablo.acevedo.g@gmail.com",
 
-    "client": "https://client-tts.herokuapp.com",
+    "client": "https://www.talenttoserve.com",
     "saltRounds": 10,
     "graphql": {
         "endpoint": "/",
