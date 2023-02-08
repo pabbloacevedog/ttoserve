@@ -22,7 +22,10 @@ export default function (server) {
         // Inciar Servidor web
         server.listen(
 			{
-				port: PORT,
+				port: config.port,
+			},
+			{
+				hostname: config.hostname,
 			},
 			{
 				bodyParserOptions: { limit: "10mb", type: "application/json" },
@@ -34,7 +37,7 @@ export default function (server) {
 					);
 				} else {
 					console.info(
-						`INFO  - Apollo Server corriendo en el puerto ${config.port} del host ${process.env.HOST}.`
+						`INFO  - Apollo Server corriendo en el puerto ${config.port} del host ${config.hostname}.`
 					);
 				}
 			}

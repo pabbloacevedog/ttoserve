@@ -1,11 +1,12 @@
 {
     "port": 8080,
+	"hostname": "66.97.34.125",
     "secret": "desktop deflate judgingly engaging",
     "passphrase": "connected private spectator blunt",
 	"pass_mail" : "rcxdmqkpheczlkdi",
 	"email_sender": "pablo.acevedo.g@gmail.com",
 
-    "client": "https://www.talenttoserve.com",
+    "client": "http://www.talenttoserve.com",
     "saltRounds": 10,
     "graphql": {
         "endpoint": "/",
